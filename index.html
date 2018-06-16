@@ -9,9 +9,29 @@
 		background: red;
 		color: white;
 			}
+	.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 </style>
 <body>
-ทดสอบจ้า
+ทดสอบจ้า<br>
+<h2>test first java below</h2>
+<button type="button" onclick="document.getElementById('test1').innerHTML = Date()">กดดูเวลา</button>
+
+<p id="test1"></p>
+
+<h2>Css button</h2>
+<button class="button" onclick="document.getElementById('test2').innerHTML = Date()">กดดูเวลา</button>
+<p id="test2"></p>
 </body>
 
 </html>
